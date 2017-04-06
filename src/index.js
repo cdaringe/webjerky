@@ -41,6 +41,7 @@ module.exports = function (conf) {
       {
         register: require('webjerk-snaps'),
         config: {
+          concurrency: 5,
           desiredCapabilities: [
             {
               browserName: 'firefox',
