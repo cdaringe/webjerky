@@ -302,7 +302,7 @@ async@2.0.1:
   dependencies:
     lodash "^4.8.0"
 
-async@2.1.2:
+async@2.1.2, async@^2.0.1, async@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/async/-/async-2.1.2.tgz#612a4ab45ef42a70cde806bad86ee6db047e8385"
   dependencies:
@@ -316,7 +316,7 @@ async@^1.3.0, async@^1.4.0, async@^1.5.0:
   version "1.5.2"
   resolved "https://registry.yarnpkg.com/async/-/async-1.5.2.tgz#ec6a61ae56480c0c3cb241c95618e20892f9672a"
 
-async@^2.0.0, async@^2.0.1, async@^2.1.2, async@^2.1.4:
+async@^2.0.0, async@^2.1.4:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/async/-/async-2.3.0.tgz#1013d1051047dd320fe24e494d5c66ecaf6147d9"
   dependencies:
@@ -3078,11 +3078,11 @@ got@^6.7.1:
     unzip-response "^2.0.1"
     url-parse-lax "^1.0.0"
 
-graceful-fs@4.1.10:
+graceful-fs@4.1.10, graceful-fs@^4.1.9:
   version "4.1.10"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.10.tgz#f2d720c22092f743228775c75e3612632501f131"
 
-graceful-fs@^4.1.0, graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.1.9, graceful-fs@~4.1.11:
+graceful-fs@^4.1.0, graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@~4.1.11:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
 
@@ -5561,13 +5561,13 @@ progress@^1.1.8:
   version "1.1.8"
   resolved "https://registry.yarnpkg.com/progress/-/progress-1.1.8.tgz#e260c78f6161cdd9b0e56cc3e0a85de17c7a57be"
 
-promise@6.0.0:
+promise@6.0.0, "promise@>=3.2 <8":
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/promise/-/promise-6.0.0.tgz#456538dd4afdd25dc7d0f52a5201ed242b7c109d"
   dependencies:
     asap "~1.0.0"
 
-promise@7.1.1, "promise@>=3.2 <8", promise@^7.1.1:
+promise@7.1.1, promise@^7.1.1:
   version "7.1.1"
   resolved "https://registry.yarnpkg.com/promise/-/promise-7.1.1.tgz#489654c692616b8aa55b0724fa809bb7db49c5bf"
   dependencies:
@@ -7403,15 +7403,13 @@ webjerk-image-set-diff@^0.0.5:
     lodash "^4.17.4"
     webjerk-image-set-diff-reporter "^0.0.3"
 
-webjerk-process-wrangler@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/webjerk-process-wrangler/-/webjerk-process-wrangler-0.0.1.tgz#f8c9aab93360d2b010fd9e8e2ce65b257f17d4ec"
-  dependencies:
-    bluebird "^3.5.0"
+webjerk-process-wrangler@^0.0.7:
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/webjerk-process-wrangler/-/webjerk-process-wrangler-0.0.7.tgz#6d5279c205300cc5f9de2e6a50f5693c1e379017"
 
-webjerk-saucie@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/webjerk-saucie/-/webjerk-saucie-0.0.3.tgz#f11e449698567ad27747e75d2730eb76e7ec2d99"
+webjerk-saucie@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/webjerk-saucie/-/webjerk-saucie-0.0.5.tgz#749cedd5b7099a38c44ef982f08e2270de62a9c6"
   dependencies:
     lodash "*"
     saucie "^3.1.0"

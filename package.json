@@ -1,6 +1,6 @@
 {
   "name": "webjerky",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "connect to sauce, fire up a static server, do some screenshot testing!",
   "main": "src/index.js",
   "author": "cdaringe",
@@ -8,8 +8,8 @@
   "dependencies": {
     "httpster": "^1.0.3",
     "webjerk": "^0.0.2",
-    "webjerk-process-wrangler": "^0.0.1",
-    "webjerk-saucie": "^0.0.3",
+    "webjerk-process-wrangler": "^0.0.7",
+    "webjerk-saucie": "^0.0.5",
     "webjerk-snaps": "^0.0.10"
   },
   "repository": {
