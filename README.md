@@ -6,6 +6,8 @@ webjerky is a tiny script that wires together a few webjerk plugins, & runs elem
 
 ## usage
 
+[API documentation lives here](https://cdaringe.github.io/webjerky/index.html).
+
 ```js
 var webjerky = require('webjerky)
 /**
