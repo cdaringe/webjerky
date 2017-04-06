@@ -9,7 +9,7 @@ webjerky is a tiny script that wires together a few webjerk plugins, & runs elem
 [API documentation lives here](https://cdaringe.github.io/webjerky/index.html).
 
 ```js
-var webjerky = require('webjerky)
+var webjerky = require('webjerky')
 var conf = { ... } // see API docs
 webjerky(conf).then(...) // `snaps/` will be a dir with the result of `webjerk-snaps` within!
 ```
