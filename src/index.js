@@ -5,6 +5,10 @@ var wj = require('webjerk')
 
 /**
  * @module webjerky
+ */
+
+/**
+ * Webjerky.
  * @param {object} conf
  * @param {string} conf.testName
  * @param {string} conf.staticDir
