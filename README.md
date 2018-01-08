@@ -1,5 +1,7 @@
 # webjerky
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/cdaringe/webjerky.svg)](https://greenkeeper.io/)
+
 connect to sauce, fire up a static server, do some screenshot testing!
 
 webjerky is a tiny script that wires together a few webjerk plugins, & runs element-wise screenshot testing in saucelabs.  you can read the single file source for a better idea!
